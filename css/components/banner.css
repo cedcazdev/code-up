@@ -1,23 +1,22 @@
 .banner {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 75%), url("../../images/lima-background.jpg");
-    background-size: cover;
-    background-position: center;
-    padding: 250px 0;
+	background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 75%), url("../../images/lima-background.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 200px 0;
 }
 
 .banner h1 {
-    color: white;
-    font-size: 30px;
+	color: white;
+	font-size: 46px;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .banner h2 {
-    color: white;
-    font-size: 30px;
-    font-weight: lighter;
-    opacity: 0.8;
-    margin-bottom: 50px;
-}
-
-.banner a {
-    padding: 20px 20px;
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 50px;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
