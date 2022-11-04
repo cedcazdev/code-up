@@ -1,0 +1,16 @@
+.navbar-perso {
+	justify-content: space-around;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-perso .navbar-collapse {
+	flex-grow: 0;
+}
+
+.navbar-perso .navbar-brand img {
+	width: 40px;
+}
+.nav-link {
+	color: #00A699 !important;
+	font-weight: 600 !important;
+}

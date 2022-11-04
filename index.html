@@ -16,292 +16,374 @@
 
 </head>
 <body>
-    <div class="banner">
-      <section class="container">
-        <h1>Welcome to my profile, I'm Cédric Cazal</h1>
-        <h2>I'm a Jr. Web Developer RoR</h2>
-        <a href="#contactForm" class="btn-perso type">Contact me</a>
-      </section>
-    </div>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light navbar-perso fixed-top">
     <div class="container">
-      <h1 class="py-4">Skills</h1>
-      <!-- Section Card skills -->
-      <div class="row row-cols-1 row-cols-md-3 margin-bottom">
+      <a class="navbar-brand" href="#">
+        <img src="css/favicon_io/favicon.ico" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!--Card 1-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/lewagon.png" class="card-img-top" alt="image logo Ruby on Rails">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item active">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <a class="nav-link" href="#skill">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactForm">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#skill">Skill</a>
+              <a class="dropdown-item" href="#project">Project</a>
+              <a class="dropdown-item" href="#contactForm">Contact</a>
+              <a class="dropdown-item" data-turbo-method="delete" href="#">Log out</a>
             </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Web Developer <br>full-stack RoR<br>Bootcamp Le Wagon</h4>
-              <a href="https://www.linkedin.com/feed/update/urn:li:activity:6975265185699667968/"
-                target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!--Card 2-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/ruby-programme.png" class="card-img-top" alt="image logo Ruby on Rails">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Ruby</h4>
-              <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/1c05e0382bc5681c824c4cbe85c126fd"
-                target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!--Card 3-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/rubyrails.jpeg" class="card-img-top" alt="image logo Ruby on Rails">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Ruby on Rails</h4>
-              <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/13df149ad4f7cadbb4c65603fb695cf8"
-                target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!--Card 4-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/JavaScript.jpg" class="card-img-top" alt="image logo JavaScript">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">JavaScript</h4>
-              <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
-                target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!--Card 5-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/html5-css3.jpg" class="card-img-top" alt="image logo HTM, CSS & JS">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">HTML5 & CSS3</h4>
-              <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank"
-                rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!--Card 6-->
-        <div class="col mb-4">
-          <div class="card border-0 shadow h-100">
-            <!--Card image-->
-            <div class="">
-              <img src="images/bootstrap.png" class="card-img-top" alt="image logo Ruby on Rails">
-              <a href="#!">
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <!--Card content-->
-            <div class="card-body">
-              <!--Title-->
-              <h4 class="card-title">Bootstrap</h4>
-              <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/0595479d03627a8cb816b069000e4d06"
-                target="_blank" rel="noopener noreferrer">
-                <button type="button" class="btn color-btn btn-perso type btn-md">My certificate</button>
-              </a>
-            </div>
-          </div>
-        </div>
-
+          </li>
+        </ul>
       </div>
-      <!--Section Card skills End-->
+    </div>
+  </nav>
+  <!-- Navbar End-->
 
-      <h1 class="py-4">Projects</h1>
-      <div class="row row-cols-1 row-cols-md-2 margin-bottom">
+  <!-- Banner -->
+  <div class="banner bgimg d-flex flex-column justify-content-center align-items-center">
+    <div class="container">
+      <h1 class="bg-title space-letter">Cédric Cazal</h1>
+      <h2>I'm a Jr. Web Developer RoR</h2>
+      <a href="#about" class="btn-perso type">About me</a>
+    </div>
+  </div>
+  <!-- Banner End-->
 
-        <!-- Card 1-->
+  <!-- section About -->
+  <section class="padding-80">
+    <div class="container" id="about">
+      <h2 class="text-center text-muted text-uppercase">About me</h2>
+      <p class="text-center text-muted py-4"><em>I love Programming</em></p>
+      <p class="text-justify text-muted px-2">I consider myself a responsible and proactive person in terms of deadlines and objectives to be met. I like learning new technologies and improving myself day by day, working in a team, bringing new ideas and listening to ideas from my collaborators.</p>
+      <!--  Profile Picture and Description  -->
+      <div class="row row-cols-1 row-cols-md-2 justify-content-around align-items-center">
+        <div class="col text-center text-muted padding-80">
+          <img src="images/cedric_profil.jpg" class="circle"
+            alt="Photo of Me">
+        </div>
+
+        <!-- Hide this text on small devices -->
         <div class="col">
+          <p class="text-justify text-muted">After 9 incredibly intense and rewarding weeks, I was able to finish a short time ago, thanks to the bootcamp Le Wagon Argentina, the full-stack Web Developer!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section About End -->
 
-          <div class="card card-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 75%), url(../../images/airclone.png);">
+  <!-- Section skills -->
+  <!-- Skills Text -->
+  <div class="bgimg-1 w3-display-container" id="skill">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge space-letter">SKILLS</span>
+    </div>
+  </div>
+  <!-- Skills Text End-->
+  <section class="d-flex flex-column justify-content-center align-items-center padding-80">
+    <div class="container row row-cols-1 row-cols-md-3  padding-80">
 
-            <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-3">
-              <div class="rounded px-2 py-3" style="background: linear-gradient(135deg, rgba(155, 155, 155, 0.7) 0%, rgba(190, 190, 190, 0.6) 75%);">
-                <h2 class="fs-5"><i class="fa-regular fa-lightbulb"></i> Web App</h2>
-                <h3 class="card-title pt-2"><strong>AirClone</strong></h3>
-                <p class="text-center ">Air clone is a project we put together in a week as a course project. It basically is a copy of airbnb.</p>
-                <h4 class="fs-5">Usage</h4>
-                <p class="text-center">You can make a profile, make reservations and post offers.</p>
-                <a href="http://airclone-mica-airbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="btn btn-perso type"><i class="fas fa-clone left"></i> View project</a>
-              </div>
-            </div>
+      <!--Card 1-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/lewagon.png" class="card-img-top" alt="image logo Le Wagon">
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6975265185699667968/">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">Web Developer <br>full-stack RoR<br>Bootcamp Le Wagon</h4>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6975265185699667968/"
+              target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
           </div>
         </div>
-        <!-- Card 1 End-->
-
-        <!-- Card 2-->
-        <div class="col">
-
-          <div class="card card-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 75%), url(../../images/v-a.png);">
-
-            <!-- Content -->
-            <div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-3">
-              <div class="rounded px-2 py-3"
-                style="background: linear-gradient(135deg, rgba(155, 155, 155, 0.7) 0%, rgba(190, 190, 190, 0.6) 75%);">
-                <h2 class="fs-5"><i class="fa-regular fa-lightbulb"></i> Web App</h2>
-                <h3 class="card-title pt-2"><strong>Virtual Assistant</strong></h3>
-                <p class="text-center ">Virtual Assistant is a webpage that looks to match virtual assistants from latin america to Companies all around the world.</p>
-                <h4 class="fs-5">Usage</h4>
-                <p class="text-center">You can create an account as a hiring company or as a job seeker.</p>
-                <a href="http://airclone-mica-airbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer"
-                  class="btn btn-perso type"><i class="fas fa-clone left"></i> View project</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Card 2 End-->
-
       </div>
 
-      <!--Contact form-->
-      <h1 class="py-4">Contact me</h1>
-      <section class="container pb-5">
-        <form id="contactForm" data-sb-form-api-token="29430070-7e37-4ead-b71b-c89aa14c4f0b">
-          <div class="form-floating mb-3">
-            <input class="form-control" id="yourFullNameOrCompanyName" type="text"
-              placeholder="Your full name or company name..." data-sb-validations="required" />
-            <label for="yourFullNameOrCompanyName">Your full name or company name...</label>
-            <div class="invalid-feedback" data-sb-feedback="yourFullNameOrCompanyName:required">Your full name or company
-              name... is required.</div>
+      <!--Card 2-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/ruby-programme.png" class="card-img-top" alt="image logo Ruby on Rails">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
           </div>
-          <div class="form-floating mb-3">
-            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address..."
-              data-sb-validations="required,email" />
-            <label for="emailAddress">Email Address...</label>
-            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address... is required.</div>
-            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address... Email is not valid.</div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">Ruby</h4>
+            <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/1c05e0382bc5681c824c4cbe85c126fd"
+              target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
           </div>
-          <div class="form-floating mb-3">
-            <textarea class="form-control" id="sendMeAMessage" type="text" placeholder="Send me a message..."
-              style="height: 10rem;" data-sb-validations="required"></textarea>
-            <label for="sendMeAMessage">Send me a message...</label>
-            <div class="invalid-feedback" data-sb-feedback="sendMeAMessage:required">Send me a message... is required.</div>
+        </div>
+      </div>
+
+      <!--Card 3-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/rubyrails.jpeg" class="card-img-top" alt="image logo Ruby on Rails">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
           </div>
-          <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center mb-3">
-              <div class="fw-bolder">Form submission successful!</div>
-              <p>To activate this form, sign up at</p>
-              <!-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
-            </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">Ruby on Rails</h4>
+            <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/13df149ad4f7cadbb4c65603fb695cf8"
+              target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
           </div>
-          <div class="d-none" id="submitErrorMessage">
-            <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+      </div>
+
+      <!--Card 4-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/JavaScript.jpg" class="card-img-top" alt="image logo JavaScript">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
           </div>
-          <div class="d-grid">
-            <button class="btn color-btn btn-perso type btn-lg disabled" id="submitButton" type="submit">Submit</button>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">JavaScript</h4>
+            <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+              target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
           </div>
-        </form>
-      </section>
-      <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        </div>
+      </div>
+
+      <!--Card 5-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/html5-css3.jpg" class="card-img-top" alt="image logo HTM, CSS & JS">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">HTML5 & CSS3</h4>
+            <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7" target="_blank"
+              rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--Card 6-->
+      <div class="col mb-4">
+        <div class="card border-0 shadow h-100">
+          <!--Card image-->
+          <div class="">
+            <img src="images/bootstrap.png" class="card-img-top" alt="image logo Ruby on Rails">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card content-->
+          <div class="card-body">
+            <!--Title-->
+            <h4 class="card-title text-muted">Bootstrap</h4>
+            <a href="https://www.codecademy.com/profiles/Cedcaz_Dev/certificates/0595479d03627a8cb816b069000e4d06"
+              target="_blank" rel="noopener noreferrer">
+              <button type="button" class="btn color-btn btn-perso type-1 btn-md">My certificate</button>
+            </a>
+          </div>
+        </div>
+      </div>
 
     </div>
-    <!--Contact form End-->
+  </section>
+  <!--Section skills End-->
 
-    <!-- Footer-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="row">
-          <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-muted mb-4">Location</h4>
-            <p class="text-muted lead mb-0">
-              Avenue Arequipa 1490
-              <br />
-              Lima, PE 15046
-            </p>
-          </div>
-          <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-muted mb-4">Social Link</h4>
-            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/cedcazdev" target="_blank"
-                rel="noopener noreferrer"><i class="fa-brands fa-github"></i></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/Cedcaz_Dev" target="_blank"
-                rel="noopener noreferrer"><i class="fab fa-fw fa-twitter"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/cedriccazal-dev" target="_blank"
-                rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin-in"></i></a>
-            <a class="btn btn-outline-light btn-social mx-1" href="#!" target="_blank"
-                rel="noopener noreferrer"><i class="fa-solid fa-code"></i></a>
-          </div>
-          <!-- Footer About Text-->
-          <div class="col-lg-4">
-            <h4 class="text-muted mb-4">Bootcamp Le Wagon</h4>
-            <p class="text-muted lead mb-0">
-              Launch your career Web Developer full-Stack,
-              <a href="https://www.lewagon.com/web-development-course" target="_blank"
-                rel="noopener noreferrer">here</a> .
-            </p>
+  <!--Section project-->
+  <!-- Projects Text -->
+  <section class="bgimg-2 w3-display-container" id="project">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge space-letter">PROJECTS</span>
+    </div>
+  </section>
+  <!-- Projects Text End-->
+  <section class="d-flex flex-column justify-content-center align-items-center padding-80">
+    <div class="pb-3">
+      <h2 class="text-center text-muted">MY WORK</h2>
+      <p class="text-center text-muted pt-3"><em>Here are some of my latest project.<br> Click on the buttons to visit the project.</em></p>
+    </div>
+    <div class="container row row-cols-1 row-cols-md-2 padding-80">
+      <!-- Card 1-->
+      <div class="col">
+        <div class="card card-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 75%), url(../../images/airclone.png);">
+          <!-- Content -->
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-3">
+            <div class="rounded px-2 py-3"
+              style="background: linear-gradient(135deg, rgba(155, 155, 155, 0.7) 0%, rgba(190, 190, 190, 0.6) 75%);">
+              <h2 class="fs-5"><i class="fa-regular fa-lightbulb"></i> Web App</h2>
+              <h3 class="card-title pt-2"><strong>AirClone</strong></h3>
+              <p class="text-center ">Air clone is a project we put together in a week as a course project. It basically is a copy of airbnb.</p>
+              <h4 class="fs-5">Usage</h4>
+              <p class="text-center">You can make a profile, make reservations and post offers.</p>
+              <a href="http://airclone-mica-airbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="btn btn-perso type-1"><i class="fas fa-clone left"></i> View project</a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Footer End-->
+      <!-- Card 1 End-->
 
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-      <div class="text-muted lead container"><small>Copyright &copy; Cedcaz-Dev 2022</small></div>
+      <!-- Card 2-->
+      <div class="col">
+        <div class="card card-image" style="background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 75%), url(../../images/v-a.png);">
+          <!-- Content -->
+          <div class="text-white text-center d-flex align-items-center rgba-black-strong py-4 px-3">
+            <div class="rounded px-2 py-3"
+              style="background: linear-gradient(135deg, rgba(155, 155, 155, 0.7) 0%, rgba(190, 190, 190, 0.6) 75%);">
+              <h2 class="fs-5"><i class="fa-regular fa-lightbulb"></i> Web App</h2>
+              <h3 class="card-title pt-2"><strong>Virtual Assistant</strong></h3>
+              <p class="text-center ">Virtual Assistant is a webpage that looks to match assistants with Companies all around the world.</p>
+              <h4 class="fs-5">Usage</h4>
+              <p class="text-center">You can create an account as a hiring company or as a job seeker.</p>
+              <a href="http://airclone-mica-airbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="btn btn-perso type-1"><i class="fas fa-clone left"></i> View project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 End-->
     </div>
-    <!-- Copyright Section End-->
+  </section>
+  <!--Section project End-->
 
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!--Section ontact-->
+  <!-- Contact Text -->
+  <section class="bgimg-3 w3-display-container" id="contactForm">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge space-letter">CONTACT</span>
+    </div>
+  </section>
+  <!-- Contact Text End-->
+  <section class="d-flex flex-column justify-content-center align-items-center padding-80">
+    <!--Section Contact-->
+    <div class="container padding-80">
+      <form id="contactForm" data-sb-form-api-token="29430070-7e37-4ead-b71b-c89aa14c4f0b">
+        <div class="form-floating mb-3">
+          <input class="form-control" id="yourFullNameOrCompanyName" type="text"
+            placeholder="Your full name or company name..." data-sb-validations="required" />
+          <label for="yourFullNameOrCompanyName">Your full name or company name...</label>
+          <div class="invalid-feedback" data-sb-feedback="yourFullNameOrCompanyName:required">Your full name or company
+            name... is required.</div>
+        </div>
+        <div class="form-floating mb-3">
+          <input class="form-control" id="emailAddress" type="email" placeholder="Email Address..."
+            data-sb-validations="required,email" />
+          <label for="emailAddress">Email Address...</label>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address... is required.</div>
+          <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address... Email is not valid.</div>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" id="sendMeAMessage" type="text" placeholder="Send me a message..."
+            style="height: 10rem;" data-sb-validations="required"></textarea>
+          <label for="sendMeAMessage">Send me a message...</label>
+          <div class="invalid-feedback" data-sb-feedback="sendMeAMessage:required">Send me a message... is required.</div>
+        </div>
+        <div class="d-none" id="submitSuccessMessage">
+          <div class="text-center mb-3">
+            <div class="fw-bolder">Form submission successful!</div>
+            <p>To activate this form, sign up at</p>
+          </div>
+        </div>
+        <div class="d-none" id="submitErrorMessage">
+          <div class="text-center text-danger mb-3">Error sending message!</div>
+        </div>
+        <div class="d-grid">
+          <button class="btn color-btn btn-perso type-1 btn-lg disabled" id="submitButton" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!--Section contact End-->
+    <!-- Starbootstrap script form -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  </section>
+  <!--Section contact End-->
+
+  <!-- Footer-->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Footer Location-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h5 class="text-muted mb-4">Location</h5>
+          <p class="text-muted lead mb-0">
+            Avenue Arequipa 1490 <br/> Lima, PE 15046
+          </p>
+        </div>
+        <!-- Footer Social Icons-->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h5 class="text-muted mb-4">Social Link</h5>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/cedcazdev" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/Cedcaz_Dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/cedriccazal-dev" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i></a>
+        </div>
+        <!-- Footer Bootcamp Text-->
+        <div class="col-lg-4">
+          <h5 class="text-muted mb-4">Bootcamp Le Wagon</h5>
+          <p class="text-muted lead mb-0">
+            Launch your career Web Developer full-Stack,
+            <a href="https://www.perso.com/web-development-course" target="_blank"
+              rel="noopener noreferrer">here</a> .
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End-->
+
+  <!-- Copyright Section-->
+  <div class="copyright py-4 text-center text-white">
+    <div class="text-muted lead container"><small>Copyright &copy; Cedcaz-Dev 2022</small></div>
+  </div>
+  <!-- Copyright Section End-->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>
