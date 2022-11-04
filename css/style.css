@@ -13,6 +13,7 @@ body {
   min-width: 400xp;
   font-family: "lora", sans-serif;
   font-size: 18px;
+  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
